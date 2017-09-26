@@ -33,7 +33,7 @@
         <Button x:Name="button_code" Content="insert code" Grid.Column="1" HorizontalAlignment="Left" Margin="115,53,0,0" VerticalAlignment="Top" Width="78" Click="button_code_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="-1,-70,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="AccountSid"/><LineBreak/><Run/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="10,-70,0,0" TextWrapping="Wrap" Text="AuthToken" VerticalAlignment="Top" Width="63" RenderTransformOrigin="1.135,-1.757" Grid.Column="1"/>
-        <TextBox x:Name="SidBox" HorizontalAlignment="Left" Height="17" Margin="70,-70,0,0" VerticalAlignment="Top" Width="185" TextOptions.TextFormattingMode="Display" MaxLines="1" AutomationProperties.IsRowHeader="True" HorizontalScrollBarVisibility="Disabled"/>
+        <TextBox x:Name="SidBox" HorizontalAlignment="Left" Height="18" Margin="70,-70,0,0" VerticalAlignment="Top" Width="185" MaxLines="1"/>
         <TextBox x:Name="TokenBox" HorizontalAlignment="Left" Height="18" Margin="78,-70,0,0" VerticalAlignment="Top" Width="180" Grid.Column="1" RenderTransformOrigin="0.714,0.74" MaxLines="1"/>
         <Separator HorizontalAlignment="Left" Height="3" Margin="0,18,0,0" VerticalAlignment="Top" Width="517" Grid.ColumnSpan="2"/>
         <TextBox x:Name="senderBox" HorizontalAlignment="Left" Height="21" Margin="70,-38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" TextChanged="TextBox_TextChanged_2"/>
