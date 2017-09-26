@@ -1,0 +1,5 @@
+edit data.txt
+Bank
+FirstName
+LastName
+Email
